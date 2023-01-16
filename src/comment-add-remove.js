@@ -1,5 +1,4 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "./comment.css";
 import { useState } from "react";
 
 

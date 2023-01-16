@@ -49,8 +49,6 @@ body{
   padding: 0;
 }
 
-.use
-
 .user,
 .button{
   align-self: center;
@@ -94,6 +92,11 @@ button:nth-child(2){
 .send .content{
   display: flex;
   flex-direction: column;
+  padding: 10px;
+}
+
+.user{
+  align-self: center;
 }
 
 
