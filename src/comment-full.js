@@ -12,6 +12,7 @@ function App() {
   // 是否让表单显示和隐藏
   const [formStatus, setFormStaus] = useState(false);
   let id = list.length;
+
   const handleAdd = () => {
     if(status == 'add'){
       setList([...list, { uname, time, content, id }]);
@@ -19,8 +20,8 @@ function App() {
       let data = JSON.parse(JSON.stringify(list));
       data.forEach((item,index)=>{
         if(item.id == updateId){
-          let data = {id:updateId,uname, time, content}
-          data.splice(index,1,data)
+          let onedata = {id:updateId,uname, time, content}
+          data.splice(index,1,onedata)
         }
       })
       setList(data)

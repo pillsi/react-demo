@@ -99,4 +99,24 @@ button:nth-child(2){
   align-self: center;
 }
 
+.edit{
+  position:relative;
+  background-color: rgb(216, 217, 216);
+  text-align: center;
+  padding: 30px 50px;
+}
+
+.edit span{
+  border: 1px solid rgb(193, 193, 193);
+  background-color: #fff;
+  padding: 0 3px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.edit button{
+  margin: 0 auto;
+}
+
 
