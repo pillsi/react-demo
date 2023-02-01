@@ -23,6 +23,7 @@ function App() {
     <div className="App">
     {/* 左边区域 */}
       <div className="left">
+      {}
         <div className="item">
           <div className="user">
             <p>123</p>
